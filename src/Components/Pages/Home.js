@@ -16,10 +16,7 @@ function Home(props) {
 
     return (
         <div className='Container'>
-            <h2>This is Home Page</h2>
-            <button className='btn btn-primary'>button</button>
-
-
+            <h2> Home Page</h2>
             <h1>React Accordion Demo</h1>
             <div className="accordion">
                 <div className="accordion-item">
