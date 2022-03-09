@@ -4,6 +4,7 @@ import Home from '../Pages/Home';
 import About from '../Pages/About';
 import Services from '../Pages/Services';
 import Contact from '../Pages/Contact';
+import Login from '../Pages/Login';
 
 function Routing(props) {
     return (
@@ -13,6 +14,7 @@ function Routing(props) {
             <Route path="/About" element={<About/>}/>
             <Route path="/Services" element={<Services/>}/>
             <Route path="/Contact" element={<Contact/>}/>
+            <Route path="/Login" element={<Login/>}/>
             </Routes>
 
         </div>

@@ -10,6 +10,7 @@ function Nav(props) {
                 <li><Link to="/About">About</Link></li>
                 <li><Link to="/Services">Services</Link></li>
                 <li><Link to="/Contact">Contact</Link></li>
+                <li><Link to="/Login">Login</Link></li>
             </ul>
 
 

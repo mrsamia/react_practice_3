@@ -1,0 +1,8 @@
+.field_body{
+    width: 40%;
+    height: 50px;
+    border-radius: 8px;
+    border: 1px solid gray;
+    padding-left: 10px;
+    margin-top: 10px;
+}
