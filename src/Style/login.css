@@ -9,6 +9,7 @@ top: 161px;
 .form_body{
 background: #264ECA;
 width: 100%;
+background-image: url("../Components/Assets/BG.png");
 }
 
 .btn-style{

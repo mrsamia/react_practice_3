@@ -21,7 +21,7 @@
   }
    */
   
-  body {
+  /* body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     background: rgb(238, 174, 202);
@@ -30,7 +30,7 @@
       rgba(238, 174, 202, 1) 0%,
       rgba(199, 233, 148, 1) 100%
     );
-  }
+  } */
   
   h1 {
     text-align: center;
