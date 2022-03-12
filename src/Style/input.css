@@ -4,14 +4,37 @@
     border-radius: 8px;
     width: 300px;
     height: 45px;
-    left: 490px;
-    top: 395px;
+    /* left: 490px;
+    top: 395px; */
     margin-top: 10px; 
-    padding-left: 10px;
+    padding-left: 50px;
     background-color:#264ECA;
     color: white;
+
+    position: relative;
 }
 
 .field_body::placeholder{
     color: white;
 }
+
+
+.user_icon {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    left: 41%;
+    top:41.5%;
+  }
+
+  .lock_icon {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 41%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
