@@ -5,6 +5,7 @@ import Button from '../SingleCompnt/Button';
 import { Link } from 'react-router-dom';
 import { FaUser, FaLock } from 'react-icons/fa';
 
+
 function InputForm(props) {
 
     // const [emailError, setEmailError] = useState('')
@@ -21,23 +22,13 @@ function InputForm(props) {
 
 
     return (
-        <div className="App form container">
-            <div className="pt-5 pb-4 ">
+        <div style={{width: 'fit-content', margin: '0 auto'}}>
+            <div className="pt-5 pb-4">
                 <img style={{ width: "90px", height: "90px" }} src={require("../Assets/Group.png")} />
             </div>
 
-            <div>
-                <FaUser class="user_icon" />
-                <Input type="text" name='username' placeholder="Username" />
-            </div>
-
-            {/* <Input name='email' placeholder="Email" type="text" id="userEmail" onChange={(e) => validateEmail(e)}/>
-            <p style={{fontWeight: 'bold', color: 'red'}}>{emailError}</p> */}
-
-            <div>
-                <FaLock class="lock_icon" />
-                <Input type="password" name='password' placeholder="Password" /><br></br>
-            </div>
+            <Input Icon={<FaUser className="user_icon"/>} type="text" name='username' placeholder="Username" /><br></br>
+            <Input Icon={<FaLock className="lock_icon"/>} type="password" name='password' placeholder="Password" /><br></br>
 
             <div>
                 <Link to="/Welcome" className="btn btn-primary btn-style">LOGIN</Link>
