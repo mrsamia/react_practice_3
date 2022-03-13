@@ -21,21 +21,32 @@ function InputForm(props) {
 
 
     return (
-        <div>
+        <div className="App form container">
             <div className="pt-5 pb-4 ">
-                <img src={require("../Assets/Group.png")} />
+                <img style={{ width: "90px", height: "90px" }} src={require("../Assets/Group.png")} />
             </div>
 
-            <FaUser class="user_icon" />
-            <Input type="text" name='username' placeholder="Username" />
+            <div>
+                <FaUser class="user_icon" />
+                <Input type="text" name='username' placeholder="Username" />
+            </div>
 
             {/* <Input name='email' placeholder="Email" type="text" id="userEmail" onChange={(e) => validateEmail(e)}/>
             <p style={{fontWeight: 'bold', color: 'red'}}>{emailError}</p> */}
 
-            <FaLock class="lock_icon" />
-            <Input type="password" name='password' placeholder="Password" /><br></br>
+            <div>
+                <FaLock class="lock_icon" />
+                <Input type="password" name='password' placeholder="Password" /><br></br>
+            </div>
 
-            <Link to="/Welcome" className="btn btn-primary btn-style">LOGIN</Link>
+            <div>
+                <Link to="/Welcome" className="btn btn-primary btn-style">LOGIN</Link>
+            </div>
+
+            <div>
+                <p className="Forgot_p">Forgot Password?</p>
+            </div>
+
         </div>
     );
 }
