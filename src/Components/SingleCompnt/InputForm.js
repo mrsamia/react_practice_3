@@ -23,6 +23,7 @@ function InputForm(props) {
 
     return (
         <div style={{width: 'fit-content', margin: '0 auto'}}>
+            
             <div className="pt-5 pb-4">
                 <img style={{ width: "90px", height: "90px" }} src={require("../Assets/Group.png")} />
             </div>
